@@ -1,6 +1,6 @@
 # 架構API Log 紀錄
 
-## # Github 套件發行
+## Github 套件發行
 Release:
 dotnet pack --configuration Release
 
