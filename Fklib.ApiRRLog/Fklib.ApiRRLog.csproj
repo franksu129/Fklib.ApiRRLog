@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <Company>talfin.ai</Company>
+    <Authors>talfin.ai</Authors>
+    <Description>Log Control</Description>
+    <Copyright></Copyright>
+    <RepositoryUrl>https://github.com/talfin-ai/YPLog</RepositoryUrl>
+    <RepositoryType>Logging, Logger, Logs</RepositoryType>
+    <Version>0.0.9</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="5.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+</Project>
